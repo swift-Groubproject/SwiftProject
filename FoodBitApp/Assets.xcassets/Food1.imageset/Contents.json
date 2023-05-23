@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Maren_Caruso_-_Food_and_Still_Life_Photography___savory___10-removebg-preview.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

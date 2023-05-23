@@ -11,6 +11,12 @@
 		3F20F6F52A1CA2B000DA0DD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F20F6F42A1CA2B000DA0DD5 /* ContentView.swift */; };
 		3F20F6F72A1CA2B700DA0DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F20F6F62A1CA2B700DA0DD5 /* Assets.xcassets */; };
 		3F20F6FA2A1CA2B700DA0DD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F20F6F92A1CA2B700DA0DD5 /* Preview Assets.xcassets */; };
+		B708416E2A1CA51F004D5131 /* TrakingOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B708416D2A1CA51F004D5131 /* TrakingOrder.swift */; };
+		B70841712A1CA5AB004D5131 /* TrakingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70841702A1CA5AB004D5131 /* TrakingModel.swift */; };
+		B70841742A1CA90A004D5131 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70841732A1CA90A004D5131 /* Profile.swift */; };
+		B70841762A1CA985004D5131 /* FavoriteFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70841752A1CA985004D5131 /* FavoriteFood.swift */; };
+		B70841792A1CB04F004D5131 /* FiveStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70841782A1CB04F004D5131 /* FiveStar.swift */; };
+		B708417B2A1CC6CD004D5131 /* Follwer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B708417A2A1CC6CD004D5131 /* Follwer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		3F20F6F42A1CA2B000DA0DD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F20F6F62A1CA2B700DA0DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F20F6F92A1CA2B700DA0DD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B708416D2A1CA51F004D5131 /* TrakingOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrakingOrder.swift; sourceTree = "<group>"; };
+		B70841702A1CA5AB004D5131 /* TrakingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrakingModel.swift; sourceTree = "<group>"; };
+		B70841732A1CA90A004D5131 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		B70841752A1CA985004D5131 /* FavoriteFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteFood.swift; sourceTree = "<group>"; };
+		B70841782A1CB04F004D5131 /* FiveStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveStar.swift; sourceTree = "<group>"; };
+		B708417A2A1CC6CD004D5131 /* Follwer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follwer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +63,14 @@
 		3F20F6F12A1CA2B000DA0DD5 /* FoodBitApp */ = {
 			isa = PBXGroup;
 			children = (
+				B70841772A1CB032004D5131 /* Combonent */,
+				B70841722A1CA8E7004D5131 /* View */,
+				B708416F2A1CA577004D5131 /* Model */,
 				3F20F6F22A1CA2B000DA0DD5 /* FoodBitAppApp.swift */,
 				3F20F6F42A1CA2B000DA0DD5 /* ContentView.swift */,
 				3F20F6F62A1CA2B700DA0DD5 /* Assets.xcassets */,
 				3F20F6F82A1CA2B700DA0DD5 /* Preview Content */,
+				B708416D2A1CA51F004D5131 /* TrakingOrder.swift */,
 			);
 			path = FoodBitApp;
 			sourceTree = "<group>";
@@ -65,6 +81,32 @@
 				3F20F6F92A1CA2B700DA0DD5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B708416F2A1CA577004D5131 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B70841702A1CA5AB004D5131 /* TrakingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B70841722A1CA8E7004D5131 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B70841732A1CA90A004D5131 /* Profile.swift */,
+				B70841752A1CA985004D5131 /* FavoriteFood.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B70841772A1CB032004D5131 /* Combonent */ = {
+			isa = PBXGroup;
+			children = (
+				B70841782A1CB04F004D5131 /* FiveStar.swift */,
+				B708417A2A1CC6CD004D5131 /* Follwer.swift */,
+			);
+			path = Combonent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +179,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70841792A1CB04F004D5131 /* FiveStar.swift in Sources */,
+				B708416E2A1CA51F004D5131 /* TrakingOrder.swift in Sources */,
+				B70841762A1CA985004D5131 /* FavoriteFood.swift in Sources */,
+				B708417B2A1CC6CD004D5131 /* Follwer.swift in Sources */,
+				B70841742A1CA90A004D5131 /* Profile.swift in Sources */,
 				3F20F6F52A1CA2B000DA0DD5 /* ContentView.swift in Sources */,
+				B70841712A1CA5AB004D5131 /* TrakingModel.swift in Sources */,
 				3F20F6F32A1CA2B000DA0DD5 /* FoodBitAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
