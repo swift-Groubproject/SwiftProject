@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Tteokbokki_White_Transparent__Cute_Hand_Drawing_Illustration_Tteokbokki_Tokpokki_Tokppoki_Tokpoki_Korean_Food_Png_Transparent__Tteokbokki__Korean__Korean_Food_PNG_Image_For_Free_Download-removebg-prev.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
